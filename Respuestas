@@ -1,24 +1,10 @@
-const Discord = require("discord.js");
-const  client = new Discord.Client();
-
-client.on("ready", () => {
-   console.log("Estoy listo!");
-});
-client.on("message", (message) => {
-  if (message.content.startsWith("MR")) {
-    message.channel.send("Proximamente MR Colombia");
+{
+  "hook":{
+    "type":"App",
+    "id":11,
+    "active":true,
+    "events":["pull_request"],
+    "app_id":37,
+    ...
   }
-});
-client.on("message", (message) => {
-  if (message.content.startsWith("Twitter")) {
-    message.channel.send("Este es el Twitter de Popayan https://twitter.com/Waze_Popayan");
-  }
-});
-client.on("message", (message) => {
-  if (message.content.startsWith("Acceso1")) {
-    message.channel.send("Este es el Link de acceso a la Comunidad Waze en Discord https://discord.gg/PRpcjM6");
-  }
-});
-
-client.login("NDUyNjU3MTk3MzI3OTc0NDAw.DoRDGA.zzT5vPNLFAZSBkHR2259oMhDHpU");
-
+}
