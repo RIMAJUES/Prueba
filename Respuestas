@@ -10,7 +10,7 @@
   ],
   "active": true,
   "config": {
-    "url": "http://example.com/webhook",
+    "url": "https://wazecolombia.info/ur/alerts_comments_report.php?country=Colombia",
     "content_type": "json"
   },
   "updated_at": "2011-09-06T20:39:23Z",
